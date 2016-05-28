@@ -1,5 +1,5 @@
 package = "turbo-sqlite3"
-version = "1.0.2-1"
+version = "1.0-1"
 
 source = {
  url = "git://github.com/olueiro/turbo-sqlite3.git",
@@ -22,7 +22,9 @@ dependencies = {
 build = {
  type = "builtin",
  modules = {
-  ["turbo-sqlite3"] = "turbo-sqlite3.lua"
+  ["turbo-sqlite3"] = "turbo-sqlite3.lua",
+  _templet = "templet.lua",
+  _xsys = "xsys.lua"
  },
  copy_directories = {}
 }
