@@ -5,12 +5,12 @@ Pure LuaJIT binding for [SQLite3](http://sqlite.org) databases.
 
 ## Installation
 
-1. Install `SQLite3`:
+- Install `SQLite3`:
 ```
 $ apt-get install sqlite3 libsqlite3-dev
 ```
 
-2. Install `luarocks`:
+- Install `luarocks`:
 ```
 $ wget http://luarocks.org/releases/luarocks-2.3.0.tar.gz
 $ tar zxpf luarocks-2.3.0.tar.gz
@@ -18,12 +18,12 @@ $ cd luarocks-2.3.0
 $ ./configure; sudo make bootstrap
 ```
 
-3. Install `turbo-sqlite3`:
+- Install `turbo-sqlite3`:
 ```
 $ luarocks install turbo-sqlite3
 ```
 
-4. Done!
+- Done!
 
 ## Documentation
 
@@ -85,8 +85,8 @@ conn:close() -- Close stmt as well.
 
 ## Credits
 
-LJSQLite3 and xsys: Stefano Peluchetti
-templet: Peter Colberg
+- LJSQLite3 and xsys: Stefano Peluchetti
+- templet: Peter Colberg
 
 ## License
 
@@ -114,4 +114,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[ MIT license: http://opensource.org/licenses/MIT ]
+MIT license: http://opensource.org/licenses/MIT
