@@ -15,7 +15,7 @@
 local ffi      = require "ffi"
 local bit      = require "bit"
 -- CREDIT: Peter Colberg's templet library:
-local templet  = require "templet"
+local templet  = require "_templet"
 
 local select, pairs, error, setmetatable = select, pairs, error, setmetatable
 local type, loadstring, setfenv, unpack = type, loadstring, setfenv, unpack
