@@ -23,8 +23,8 @@ build = {
  type = "builtin",
  modules = {
   ["turbo-sqlite3"] = "turbo-sqlite3.lua",
-  _templet = "templet.lua",
-  _xsys = "xsys.lua"
+  _templet = "_templet.lua",
+  _xsys = "_xsys.lua"
  },
  copy_directories = {}
 }
