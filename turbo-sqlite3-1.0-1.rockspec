@@ -11,7 +11,7 @@ description = {
  detailed = [[
 Pure LuaJIT binding for SQLite3 databases for Turbo.lua
 ]],
- homepage = "http://scilua.org/ljsqlite3.html",
+ homepage = "https://github.com/olueiro/turbo-sqlite3",
  license = "MIT"
 }
 
