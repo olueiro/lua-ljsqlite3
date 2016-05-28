@@ -1,5 +1,7 @@
-LJSQLite3: SQlite3 Interface for [Turbo.lua](http://www.turbolua.org/)
-======================================================================
+SQlite3 Interface for [Turbo.lua](http://www.turbolua.org/)
+===========================================================
+
+Forked from [stepelu/lua-ljsqlite3](https://github.com/stepelu/lua-ljsqlite3) by [Stefano Peluchetti](http://scilua.org/index.html).
 
 Pure LuaJIT binding for [SQLite3](http://sqlite.org) databases.
 
