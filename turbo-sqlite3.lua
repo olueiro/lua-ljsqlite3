@@ -20,7 +20,7 @@
 
 local ffi  = require "ffi"
 local bit  = require "bit"
-local xsys = require "xsys"
+local xsys = require "_xsys"
 
 local split, trim = xsys.string.split, xsys.string.trim
 
