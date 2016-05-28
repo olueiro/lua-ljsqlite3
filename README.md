@@ -40,7 +40,8 @@ Refer to the [official documentation](http://scilua.org/ljsqlite3.html).
 - results by row or by whole table
 
 ```lua
-local sql = require "ljsqlite3"
+local sql = require "turbo-sqlite3"
+
 local conn = sql.open("") -- Open a temporary in-memory database.
   
 -- Execute SQL commands separated by the ';' character:
